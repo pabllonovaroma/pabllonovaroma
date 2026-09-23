@@ -47,31 +47,7 @@ Gosto de integrar ferramentas que já existem no dia a dia (Drive, WhatsApp, gat
 
 ---
 
-## Projetos em destaque
-
-### Automação com integração a AWS
-
-Automação que **gera cards dos assessores em lote** e **envia por WhatsApp**: planilha, fotos e fundo no **Google Drive**, token **Canva**, geração das imagens e envio via **Twilio**.
-
-**Fluxo resumido:** atualizar token Canva → ler `Assessores.xlsx` e fotos no Drive → gerar um card por assessor (fundo + foto circular + nome + cargo + Instagram) em `imagens_lote/` → disparo WhatsApp (template ou texto).
-
-**Stack:** Python 3.8+, Node.js (`node-whatsapp`), Google Cloud (Drive + Service Account), Canva Developer, Twilio WhatsApp, AWS (EC2 / S3 para URLs de mídia quando configurado).
-
-👉 [**Ver repositório**](https://github.com/pabllohyanferreira/FinancialStories) *(ajuste o link se o nome do repo for diferente)*
-
----
-
-### Lojify
-
-Sistema de **gerenciamento de estoque e vendas** com **pagamentos integrados (PIX)**, cadastro de clientes, relatórios e **catálogo público** para clientes.
-
-**Stack:** React (`client/`), Node.js (`server/`), documentação em `docs/`.
-
-👉 [**Ver repositório**](https://github.com/pabllohyanferreira/Lojify) *(ajuste o link se o nome do repo for diferente)*
-
----
-
-## Outros repositórios
+## Repositórios
 
 | Repo | Descrição |
 |------|-----------|
